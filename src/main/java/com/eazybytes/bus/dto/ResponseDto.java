@@ -1,9 +1,12 @@
 package com.eazybytes.bus.dto;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.Setter;
+import lombok.NoArgsConstructor;
 
-@Getter @Setter
+@Getter
+@AllArgsConstructor
+@NoArgsConstructor
 public class ResponseDto {
     private int code;
     private String message;
